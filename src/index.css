@@ -1,0 +1,94 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .winner button{
+      background-color: yellow;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .status-game {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .title-history-move {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .wrap-sort {
+    margin-top: 16px;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .title-sort {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .wrap-btn-sort {
+    padding-left: 30px;
+  }
+  #btn-sort{
+    height: 40px;
+    width: 100px;
+  }
+  #btn-sort:hover {
+    color: blue;
+    font-weight: bold;
+  }
+
+  .current-select-move {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+  }
+
+  .game-info {
+    margin-left: 20px;
+  }
+  
